@@ -16,6 +16,21 @@
 
 ---
 
+```powershell
+=== Starting AD security checks ===
+WARNING: Service 'X' runs from unsafe path: C:\Users\...
+WARNING: Non-admin WRITE permission on C:\Windows by DOMAIN\User
+WARNING: Scheduled task '\MyTask' runs elevated by DOMAIN\User
+HKLM:\...\AlwaysInstallElevated : 1
+WARNING: AlwaysInstallElevated enabled on HKLM
+Writable PATH directory: C:\Users\Public
+GPO audit reporting available
+Recent AD events: Event 4720 at 2025-07-25T12:34:56Z for user joaosilva
+=== Checks completed ===
+```
+
+
+
 ## Overview
 
 `Check‑ADSecurity.ps1` is a PowerShell script designed to identify potential security issues within an Active Directory environment. It examines:
