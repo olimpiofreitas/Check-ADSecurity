@@ -17,7 +17,8 @@
 ---
 
 ```powershell
-=== Starting AD security checks ===
+===================================================== Starting AD security checks ============================================================================
+
 WARNING: Service 'X' runs from unsafe path: C:\Users\...
 WARNING: Non-admin WRITE permission on C:\Windows by DOMAIN\User
 WARNING: Scheduled task '\MyTask' runs elevated by DOMAIN\User
@@ -25,8 +26,9 @@ HKLM:\...\AlwaysInstallElevated : 1
 WARNING: AlwaysInstallElevated enabled on HKLM
 Writable PATH directory: C:\Users\Public
 GPO audit reporting available
-Recent AD events: Event 4720 at 2025-07-25T12:34:56Z for user joaosilva
-=== Checks completed ===
+Recent AD events: Event 4720 at 2025-07-25T12:34:56Z for user xpto
+
+======================================================= Checks completed ============================================================================
 ```
 
 
@@ -53,7 +55,7 @@ Recent AD events: Event 4720 at 2025-07-25T12:34:56Z for user joaosilva
 
 ---
 
-## Installation / Setup
+## Installation 
 
 1. Clone or copy the script to your local machine, e.g. `C:\Scripts`  
 2. Open **PowerShell as Administrator**  
