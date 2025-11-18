@@ -28,7 +28,7 @@ Writable PATH directory: C:\Users\Public
 GPO audit reporting available
 Recent AD events: Event 4720 at 2025-07-25T12:34:56Z for user xpto
 
-=========================== Checks completed ============================================================================
+=============================== Checks completed ==========================================================================
 ```
 
 
